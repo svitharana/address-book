@@ -3,11 +3,11 @@ import ContactList from "./components/contact-list";
 
 function App() {
   return (
-    <div className="flex min-h-screen">
-      <aside className="flex-1 bg-amber-200 ">
+    <div className="flex ">
+      <aside className="flex-1 bg-gray-100 py-5">
         <ContactList />
       </aside>
-      <main className="flex-5 bg-amber-500">
+      <main className="flex-2 ">
         <Outlet />
       </main>
     </div>
